@@ -37,6 +37,7 @@ workloads = {
 
 # Explicit list for Hosts to target
 hosts = ["10.70.16.91", "10.70.16.93", "10.70.16.97", "10.70.16.101"]
+#these all reference the same view!
 base_mount_paths = [
     "/mnt/nfs1",
     "/mnt/nfs2",
